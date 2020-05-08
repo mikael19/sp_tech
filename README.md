@@ -47,9 +47,8 @@ No need to do this I push the sqlite database too.
 `python manage.py runserver`
 
 - Open the application in your browser
-```
-Open your browser
-Go to: http://127.0.0.1:8000```
+
+`Open your browser; Go to: http://127.0.0.1:8000`
 
 - Observe on your terminal how sent events are logged.
 
@@ -97,7 +96,8 @@ Go to: http://127.0.0.1:8000```
       "schema": null,
       "contexts": null
    }
-]```
+]
+```
 
 # Issues encountered
 - The link to (i) given on the wiki is broken; due to the fact that it was deprecated for some reason. This (i) file has to be added to the S3 bucket. Inorder to solve this, I went to a previous commit to get the (i) file and it worked.
